@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media only screen and (max-width: 768px) {
+    
+    header nav ul li {
+        font-size: 10px;
+        margin: auto 5px;
+        padding: 2px;
+    }
+
+   .img-aboutMe {
+        margin-left:-50px; 
+        width:200px; 
+        height:150px;
+   }    
+
+   .font-aboutMe p {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+}
+
+header {
+    text-align: center;
+}
+
+header nav ul{
+    display: flex;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 30%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav li {
+    margin: auto;
+    background-color: rgba(22,45,25,255);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+header nav li:hover {
+    background-color: #44764B;
+    color: white;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#container-aboutMe {
+    display: grid;
+    margin-top: 40px;
+    align-items: center;
+    grid-template-columns: 0.38fr 0.3fr;
+    justify-content: center;
+}
+
+#container-aboutMe a {
+    text-decoration: none;
+}
+
+#container-aboutMe a:hover {
+    color: #44764B;
+}
+
+.img-aboutMe {
+    margin-left:-50px; 
+    width:400px; 
+    height:300px;
+}
+
+.font-aboutMe {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: -50px;
+}
+
+/*################ contactMe ################ */
+
+form tr td {
+    padding-bottom: 20px;
+}
+
+textarea {
+    width: 97%;
+}
+
+.submit {
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 12px 20px;
+    border: none;
+    background-color: #44764B;
+    color: #fff;
+}
+
+.submit:hover {
+    background-color: rgba(22,45,25,255);
+    color: white;
+}
+
